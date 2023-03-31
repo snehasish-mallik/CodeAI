@@ -1,0 +1,51 @@
+.sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #1e1e1e;
+
+  }
+
+  .sidebar a {
+    display: block;
+    width: 100%;
+    color: white;
+    line-height: 3rem;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-left: 5px solid transparent;
+    text-decoration: none!important;
+  }
+
+  
+
+  .sidebar a span {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .container{
+    padding-top: 43px;
+  }
+  .about{
+    padding-top: 10px!important;
+  }
+
+  form input{
+    margin-left: 1rem;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 1rem;
+    background-color: #076370;
+    color: #222;
+  }
+  form .box p{
+    color: white;
+  }
+  form #results{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  @media only screen and (max-width: 600px){
+    .container{
+      visibility: hidden;
+    }
+  }

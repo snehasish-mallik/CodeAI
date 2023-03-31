@@ -1,0 +1,45 @@
+#editor{
+    height: 35pc!important;
+    width: 50pc!important;
+    background-color: rgb(29, 28, 28)!important;
+    text-decoration: white;
+}
+textarea{
+    color: white!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    text-size-adjust: 12px;
+}
+a:hover{
+    text-shadow: 1.5px 1.5px rgb(77, 77, 75);
+
+  }
+.navbar{
+    position: fixed!important;
+  }
+  
+  .navbar.navbar-nav{
+    padding-left: 10pc!important;
+  }
+  
+footer{
+  
+    padding-left: 100px!important;
+}
+
+body{
+    margin: 10!important;
+    background: black!important;
+}
+
+.contentI{
+    text-align: center;
+}
+
+.indexC{
+    background: url(/images/freepik_5_23_12_21_9.jpg)!important;
+}
+a:hover{
+    text-shadow: 1.5px 3px rgb(5, 50, 65);
+    color: #44b927;
+  
+  }

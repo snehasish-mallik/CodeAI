@@ -1,0 +1,107 @@
+.menubar{
+    padding-left: 15px!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: fixed;
+    
+}
+body{
+    margin: 10!important;
+    background: rgb(2, 12, 18)!important;
+    color: white!important;
+}
+.interview{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 60px;
+    font-size: medium;
+}
+.interview a{
+    text-decoration: none;
+
+}
+
+footer{
+text-align: center;
+font-size: smaller;
+color: rgb(53, 52, 52);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+max-width: 50%!important;
+height: auto!important;
+width: auto\9!important; /* ie8 */
+}
+@media only screen and (max-width: 600px){
+
+.interview{
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 120px;
+    width: 80%;
+}
+.ai{
+    
+ width:min-content ;
+}
+
+}
+
+.menubar{
+    padding-left: 15px!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: fixed;
+}
+body{
+    margin: 10!important;
+    background: rgb(2, 12, 18)!important;
+    color: white!important;
+}
+.interview{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    
+}
+.interview a{
+    text-decoration: none;
+    
+}
+.question{
+    color: rgb(137, 136, 136);
+    font-size: larger;
+}
+footer{
+text-align: center;
+font-size: smaller;
+color: rgb(53, 52, 52);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 600px){
+
+.interview{
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 120px;
+    width: 80%;
+}
+.ai{
+    
+ width:min-content ;
+}
+
+}
+
+.question{
+    font-weight: bold;
+}
+a:hover{
+    text-shadow: 1.5px 3px rgb(5, 50, 65);
+    color: #44b927;
+  
+  }

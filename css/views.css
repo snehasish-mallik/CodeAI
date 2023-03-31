@@ -1,0 +1,80 @@
+.menubar{
+    padding-left: 30px!important;
+}
+.menubar{
+    padding-left: 15px!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: fixed;
+    
+}
+body{
+    margin: 10!important;
+    background: rgb(2, 12, 18)!important;
+    color: white!important;
+}
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 60px;
+    font-size: larger;
+}
+.detail h5{
+    color: rgb(146, 145, 145);
+}
+.detail img{
+    border-radius: 50%;
+    text-align: center;
+    size: 10px;
+}
+.detail p{
+    font-size: large;
+    
+   
+}
+.detail{
+    display: flex;
+    gap: 25px;
+    
+}
+.skills{
+    font-size: medium!important;
+}
+.about h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+.skil{
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+.name{
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+footer{
+text-align: center;
+font-size: smaller;
+color: rgb(53, 52, 52);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 600px){
+.detail{
+    display: grid;
+}
+.about{
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 120px;
+    width: 80%;
+}
+.ai{
+    
+ width:min-content ;
+}
+
+}

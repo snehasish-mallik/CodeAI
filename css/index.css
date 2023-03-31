@@ -1,0 +1,51 @@
+#editor{
+    height: 35pc!important;
+    width: 50pc!important;
+    background-color: rgb(29, 28, 28)!important;
+    text-decoration: white;
+    color: white!important;
+}
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    text-size-adjust: 12px;
+}
+
+footer{
+  text-align: center;
+  font-size: smaller;
+  color: rgb(53, 52, 52);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    text-shadow: 1.5px 1.5px rgb(5, 50, 65);
+    color: #44b927;
+  
+  }
+
+body{
+    margin: 10!important;
+    background: rgb(2, 12, 18)!important;
+}
+
+.contentI{
+    text-align: center;
+}
+
+.indexC{
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#output{
+    color: black!important;
+}
+.menubar{
+    padding-left: 15px!important;
+    position: fixed!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.row{
+    padding-top: 10px!important;
+}
+

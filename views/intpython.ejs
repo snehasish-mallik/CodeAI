@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAI - Interview</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/x-icon" href="/images/ai.png">
+    <link rel="stylesheet" href="/css/interview.css">
+    <link rel="stylesheet" href="/css/practice.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <style>
+      a{
+        color: rgb(15, 130, 130);
+      }
+    </style>
+
+</head>
+<body>
+    <div class="w3-bar w3-black menubar topnav menu" id="myTopnav">
+        <a href="/" class="w3-bar-item w3-button home">CodeAI - Your Companion</a>
+        <a href="interview" class="w3-bar-item w3-button active">Interview Preparation</a>
+        <a href="practice" class="w3-bar-item w3-button apti">Practice MCQ</a>
+        <a href="test" class="w3-bar-item w3-button apti">Take a Test</a>
+        <a href="http://127.0.0.1:5173/" class="w3-bar-item w3-button" target="_blank">AskMe</a>
+        <a href="about" class="w3-bar-item w3-button">About Us</a>
+        
+      </div>
+      
+      <div class="container">
+        <div class="sidebar">
+          <a href="java">
+            <span>Java Questions</span>
+          </a>
+          <a href="python" class="active">
+            <span>Python Questions</span>
+          </a>
+          <a href="database">
+            <span>Database Questions</span>
+          </a>
+        </div>
+        </div>
+
+      <div class="interview">
+        <h3><b>Python Interview Questions : </b></h3>
+
+        <p class="question"><b>1. What is Python? </b></p>
+        <p>
+            Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling, and automatic memory management which help in modelling real-world problems and building applications to solve these problems.
+        </p>
+
+        <p class="question"><b>2. What is the use of self in Python?</b></p>
+        <p>Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.</p>
+       
+
+        <p class="question"><b>3. What is zip() function in Python?</b></p>
+        <p>Python zip() function returns a zip object, which maps a similar index of multiple containers. It takes an iterable, convert into iterator and aggregates the elements based on iterables passed. It returns an iterator of tuples.</p>
+
+        <p>
+            <b>Signature</b> <br>
+
+zip(iterator1, iterator2, iterator3 ...)     <br>
+<b>Parameters</b> <br>
+
+iterator1, iterator2, iterator3: These are iterator objects that are joined together. <br>
+
+<b>Return</b> <br>
+
+It returns an iterator from two or more iterators.
+        </p>
+
+        <p class="question"><b>4. How to overload constructors or methods in Python?</b></p>
+        <p>Python's constructor: _init__ () is the first method of a class. Whenever we try to instantiate an object __init__() is automatically invoked by python to initialize members of an object. We can't overload constructors or methods in Python. It shows an error if we try to overload.</p>
+
+        <p class="question"><b>5. How to remove leading whitespaces from a string in the Python?</b></p>
+        <p>To remove leading characters from a string, we can use lstrip() function. It is Python string function which takes an optional char type parameter. If a parameter is provided, it removes the character. Otherwise, it removes all the leading spaces from the string.</p>
+
+        <p class="question"><b>6. What is tuple in Python?</b></p>
+        <p>A tuple is a built-in data collection type. It allows us to store values in a sequence. It is immutable, so no change is reflected in the original data. It uses () brackets rather than [] square brackets to create a tuple. We cannot remove any element but can find in the tuple. We can use indexing to get elements. It also allows traversing elements in reverse order by using negative indexing. Tuple supports various methods like max(), sum(), sorted(), Len() etc.</p>
+
+        <p class="question"><b>7. Is Python interpreted language?</b></p>
+        <p>Python is an interpreted language. The Python language program runs directly from the source code. It converts the source code into an intermediate language code, which is again translated into machine language that has to be executed.
+
+           <br><br> Unlike Java or C, Python does not require compilation before execution.</p>
+
+        <p class="question"><b>8. What is the namespace in Python?</b></p>
+        <p>The namespace is a fundamental idea to structure and organize the code that is more useful in large projects. However, it could be a bit difficult concept to grasp if you're new to programming. Hence, we tried to make namespaces just a little easier to understand.
+
+           <br><br> A namespace is defined as a simple system to control the names in a program. It ensures that names are unique and won't lead to any conflict.
+            
+         <br><br> Also, Python implements namespaces in the form of dictionaries and maintains name-to-object mapping where names act as keys and the objects as values.</p>
+        
+         <p class="question"><b>9. What are iterators in Python?</b></p>
+         <p>In Python, iterators are used to iterate a group of elements, containers like a list. Iterators are the collection of items, and it can be a list, tuple, or a dictionary. Python iterator implements __itr__ and next() method to iterate the stored elements. In Python, we generally use loops to iterate over the collections (list, tuple).
+            <br><br>
+            In simple words: Iterators are objects which can be traversed though or iterated upon.
+            
+            </p>
+
+        <p class="question"><b>10. What is a generator in Python?</b></p>
+        <p>In Python, the generator is a way that specifies how to implement iterators. It is a normal function except that it yields expression in the function. It does not implements __itr__ and next() method and reduce other overheads as well.
+            <br><br>
+            If a function contains at least a yield statement, it becomes a generator. The yield keyword pauses the current execution by saving its states and then resume from the same when required.</p>
+        
+
+        <p class="question"><b>11. What is a dictionary in Python?</b></p>
+        <p>The Python dictionary is a built-in data type. It defines a one-to-one relationship between keys and values. Dictionaries contain a pair of keys and their corresponding values. It stores elements in key and value pairs. The keys are unique whereas values can be duplicate. The key accesses the dictionary elements.</p>
+
+        <p class="question"><b>12. What is a negative index in Python and why are they used?</b></p>
+        <p>The sequences in Python are indexed and it consists of the positive as well as negative numbers. The numbers that are positive uses '0' that is uses as first index and '1' as the second index and the process go on like that.
+            <br><br>
+            The index for the negative number starts from '-1' that represents the last index in the sequence and '-2' as the penultimate index and the sequence carries forward like the positive number.
+            <br><br>
+            The negative index is used to remove any new-line spaces from the string and allow the string to except the last character that is given as S[:-1]. The negative index is also used to show the index to represent the string in correct order.
+            
+            </p>
+
+        <p class="question">13. How Python does Compile-time and Run-time code checking?</p>
+        <p>In Python, some amount of coding is done at compile time, but most of the checking such as type, name, etc. are postponed until code execution. Consequently, if the Python code references a user-defined function that does not exist, the code will compile successfully. The Python code will fail only with an exception when the code execution path does not exist.</p>
+
+        <p class="question">14. What is lambda function in Python?</p>
+        <p>The anonymous function in python is a function that is defined without a name. The normal functions are defined using a keyword "def", whereas, the anonymous functions are defined using the lambda function. The anonymous functions are also called as lambda functions.</p>
+
+        <p class="question">15. What is self in Python?</p>
+        <p>Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it's optional. It helps to differentiate between the methods and attributes of a class with local variables.
+            <br> <br>
+            The self-variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.</p>
+
+        
+            <br>
+            <a href="/images/python-interview-questions-answers.pdf" download="Python-Interview-Questions">
+              <b>-</b>
+              <b>DOWNLOAD PDF!</b>
+    
+            </a>
+
+
+    </div>
+
+    
+</body>
+<footer>
+    <br>
+    @Copyrights Reserverd!
+    <br>
+    <br>
+</footer>
+</html>

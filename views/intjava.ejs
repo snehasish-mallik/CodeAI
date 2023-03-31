@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAI - Interview</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/x-icon" href="/images/ai.png">
+    <link rel="stylesheet" href="/css/interview.css">
+    <link rel="stylesheet" href="/css/practice.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <style>
+      a{
+        color: rgb(15, 130, 130);
+      }
+    </style>
+
+</head>
+<body>
+    <div class="w3-bar w3-black menubar topnav menu" id="myTopnav">
+        <a href="/" class="w3-bar-item w3-button home">CodeAI - Your Companion</a>
+        <a href="interview" class="w3-bar-item w3-button active">Interview Preparation</a>
+        <a href="practice" class="w3-bar-item w3-button apti">Practice MCQ</a>
+        <a href="test" class="w3-bar-item w3-button apti">Take a Test</a>
+        <a href="http://127.0.0.1:5173/" class="w3-bar-item w3-button" target="_blank">AskMe</a>
+        <a href="about" class="w3-bar-item w3-button">About Us</a>
+        
+      </div>
+      
+      <div class="container">
+        <div class="sidebar">
+          <a href="java" class="active">
+            <span>Java Questions</span>
+          </a>
+          <a href="python">
+            <span>Python Questions</span>
+          </a>
+          <a href="database">
+            <span>Database Questions</span>
+          </a>
+        </div>
+        </div>
+
+      <div class="interview">
+        <h3><b>Java Interview Questions</b></h3>
+
+        <p class="question"><b>1. What is Java?</b></p>
+        <p>Java is a high-level programming language that was developed by James Gosling in the year 1982. It is based on the principles of object-oriented programming and can be used to develop large-scale applications. 
+
+            The following article will cover all the popular Core Java interview questions, String Handling interview questions, java 8 interview questions, java multithreading interview questions, java OOPs interview questions, java exception handling interview questions, collections interview questions, and some frequently asked java coding interview questions.
+            
+            Go through all the questions to enhance your chances of performing well in the interviews. The questions will revolve around the basic, core & advanced fundamentals of Java</p>
+
+
+        <p class="question"><b>2. Why is Java a platform independent language?</b></p>
+        <p>Java language was developed in such a way that it does not depend on any hardware or software due to the fact that the compiler compiles the code and then converts it to platform-independent byte code which can be run on multiple systems.
+            <li>The only condition to run that byte code is for the machine to have a runtime environment (JRE) installed in it
+            </li>
+        </p>
+
+        <p class="question"><b>3. Why is Java not a pure object oriented language?</b></p>
+        <p>Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pure object oriented language.</p>
+
+        <p class="question"><b>4. Difference between Heap and Stack Memory in java.</b></p>
+        <p>Stack memory is the portion of memory that was assigned to every individual program. And it was fixed. On the other hand, Heap memory is the portion that was not allocated to the java program but it will be available for use by the java program when it is required, mostly during the runtime of the program.</p>
+        
+        <p class="question"><b>5. Can java be said to be the complete object-oriented programming language?</b></p>
+        <p>It is not wrong if we claim that java is the complete object-oriented programming language. Because Everything in Java is under the classes. And we can access that by creating the objects.
+
+            But also if we say that java is not a completely object-oriented programming language because it has the support of primitive data types like int, float, char, boolean, double, etc.
+            
+            Now for the question: Is java a completely object-oriented programming language? We can say that - Java is not a pure object-oriented programming language, because it has direct access to primitive data types. And these primitive data types don't directly belong to the Integer classes.</p>
+
+        <p class="question"><b>6. Pointers are used in C/ C++. Why does Java not make use of pointers?</b></p>
+        <p>Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the usage of pointers can make it challenging. Pointer utilization can also cause potential errors. Moreover, security is also compromised if pointers are used because the users can directly access memory with the help of pointers.
+
+            Thus, a certain level of abstraction is furnished by not including pointers in Java. Moreover, the usage of pointers can make the procedure of garbage collection quite slow and erroneous. Java makes use of references as these cannot be manipulated, unlike pointers.</p>
+        
+        <p class="question"><b>7. What do you understand by an instance variable and a local variable?</b></p>
+        <p>Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.
+
+            All the objects of the class will have their copy of the variables for utilization. If any modification is done on these variables, then only that instance will be impacted by it, and all other class instances continue to remain unaffected. <br>
+            Local variables are those variables present within a block, function, or constructor and can be accessed only inside them. The utilization of the variable is restricted to the block scope. Whenever a local variable is declared inside a method, the other class methods don’t have any knowledge about the local variable.</p>
+        
+        <p class="question"><b>8. What is the purpose of static methods and variables?</b></p>
+        <p>The methods or variables defined as static are shared among all the objects of the class. The static is the part of the class and not of the object. The static variables are stored in the class area, and we do not need to create the object to access such variables. Therefore, static is used in the case, where we need to define variables or methods which are common to all the objects of the class.
+
+            For example, In the class simulating the collection of the students in a college, the name of the college is the common attribute to all the students. Therefore, the college name will be defined as static.</p>
+        
+        <p class="question"><b>9. What is an object?</b></p>
+        <p>The Object is the real-time entity having some state and behavior. In Java, Object is an instance of the class having the instance variables as the state of the object and the methods as the behavior of the object. The object of a class can be created by using the new keyword.</p>
+        <p class="question"><b>10. What is the difference between an object-oriented programming language and object-based programming language?</b></p>
+        <p>There are the following basic differences between the object-oriented language and object-based language.
+            <ul>
+                <li>Object-oriented languages follow all the concepts of OOPs whereas, the object-based language doesn't follow all the concepts of OOPs like inheritance and polymorphism.</li>
+                <li>Object-oriented languages do not have the inbuilt objects whereas Object-based languages have the inbuilt objects, for example, JavaScript has window object.</li>
+                <li>Examples of object-oriented programming are Java, C#, Smalltalk, etc. whereas the examples of object-based languages are JavaScript, VBScript, etc.</li>
+
+            </ul>
+                
+
+        </p>
+
+        <p class="question"><b>11. What is the constructor?</b></p>
+        <p>The constructor can be defined as the special type of method that is used to initialize the state of an object. It is invoked when the class is instantiated, and the memory is allocated for the object. Every time, an object is created using the new keyword, the default constructor of the class is called. The name of the constructor must be similar to the class name. The constructor must not have an explicit return type.</p>
+
+
+        <p class="question"><b>12. How many types of constructors are used in Java?</b></p>
+        <p>Based on the parameters passed in the constructors, there are two types of constructors in Java.</p>
+        <ul><li>Default Constructor: default constructor is the one which does not accept any value. The default constructor is mainly used to initialize the instance variable with the default values. It can also be used for performing some useful task on object creation. A default constructor is invoked implicitly by the compiler if there is no constructor defined in the class.</li>
+        <li>Parameterized Constructor: The parameterized constructor is the one which can initialize the instance variables with the given values. In other words, we can say that the constructors which can accept the arguments are called parameterized constructors.</li>
+        </ul>
+
+
+        <p class="question"><b>13. Why is the main method static?</b></p>
+        <p>Because the object is not required to call the static method. If we make the main method non-static, JVM will have to create its object first and then call main() method which will lead to the extra memory allocation.</p>
+
+        <p class="question"><b>14. Can we make constructors static?</b></p>
+        <p>As we know that the static context (method, block, or variable) belongs to the class, not the object. Since Constructors are invoked only when the object is created, there is no sense to make the constructors static. However, if you try to do so, the compiler will show the compiler error.</p>
+
+        <p class="question"><b>15. Can we make the abstract methods static in Java?</b></p>
+        <p>In Java, if we make the abstract methods static, It will become the part of the class, and we can directly call it which is unnecessary. Calling an undefined method is completely useless therefore it is not allowed.</p>
+
+        
+        <br>
+        <a href="/images/java-interview-questions-answers.pdf" download="Java-Interview-Questions">
+          <b>-</b>
+          <b>DOWNLOAD PDF!</b>
+
+        </a>
+
+    
+    </div>
+
+
+
+</body>
+
+<footer>
+    <br>
+    @Copyrights Reserverd!
+    <br>
+    <br>
+</footer>
+</html>

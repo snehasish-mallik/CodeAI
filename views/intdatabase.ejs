@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAI - Interview</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/x-icon" href="/images/ai.png">
+    <link rel="stylesheet" href="/css/interview.css">
+    <link rel="stylesheet" href="/css/practice.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <style>
+      a{
+        color: rgb(15, 130, 130);
+      }
+    </style>
+
+</head>
+<body>
+    <div class="w3-bar w3-black menubar topnav menu" id="myTopnav">
+        <a href="/" class="w3-bar-item w3-button home">CodeAI - Your Companion</a>
+        <a href="interview" class="w3-bar-item w3-button active">Interview Preparation</a>
+        <a href="practice" class="w3-bar-item w3-button apti">Practice MCQ</a>
+        <a href="test" class="w3-bar-item w3-button apti">Take a Test</a>
+        <a href="http://127.0.0.1:5173/" class="w3-bar-item w3-button" target="_blank">AskMe</a>
+        <a href="about" class="w3-bar-item w3-button">About Us</a>
+        
+      </div>
+
+      <div class="container">
+        <div class="sidebar">
+          <a href="java">
+            <span>Java Questions</span>
+          </a>
+          <a href="python">
+            <span>Python Questions</span>
+          </a>
+          <a href="database" class="active">
+            <span>Database Questions</span>
+          </a>
+        </div>
+        </div>
+
+      <div class="interview">
+        <h3><b>Database Interview Questions</b></h3>
+
+
+        <p class="question">1. What is DBMS?</p>
+        <p>DBMS is a collection of programs that facilitates users to create and maintain a database. In other words, DBMS provides us an interface or tool for performing different operations such as the creation of a database, inserting data into it, deleting data from it, updating the data, etc. DBMS is a software in which data is stored in a more secure way as compared to the file-based system. Using DBMS, we can overcome many problems such as- data redundancy, data inconsistency, easy access, more organized and understandable, and so on. There is the name of some popular Database Management System- MySQL, Oracle, SQL Server, Amazon simple DB (Cloud-based), etc.</p>
+
+        <p class="question">2. What is a database?</p>
+        <p>A Database is a logical, consistent and organized collection of data that it can easily be accessed, managed and updated. Databases, also known as electronic databases are structured to provide the facility of creation, insertion, updating of the data efficiently and are stored in the form of a file or set of files, on the magnetic disk, tapes and another sort of secondary devices. Database mostly consists of the objects (tables), and tables include of the records and fields. Fields are the basic units of data storage, which contain the information about a particular aspect or attribute of the entity described by the database. DBMS is used for extraction of data from the database in the form of the queries.</p>
+
+        <p class="question">3. What is a database system?</p>
+        <p>The collection of database and DBMS software together is known as a database system. Through the database system, we can perform many activities such as-
+
+            The data can be stored in the database with ease, and there are no issues of data redundancy and data inconsistency.
+            
+            The data will be extracted from the database using DBMS software whenever required. So, the combination of database and DBMS software enables one to store, retrieve and access data with considerate accuracy and security.</p>
+
+        <p class="question">4. What is RDBMS?</p>
+        <p>RDBMS stands for Relational Database Management Systems. It is used to maintain the data records and indices in tables. RDBMS is the form of DBMS which uses the structure to identify and access data concerning the other piece of data in the database. RDBMS is the system that enables you to perform different operations such as- update, insert, delete, manipulate and administer a relational database with minimal difficulties. Most of the time RDBMS use SQL language because it is easily understandable and is used for often.</p>
+
+        <p class="question">5. How many types of database languages are?</p>
+
+        <p>There are four types of database languages:
+
+            <ul>
+                <li><b>Data Definition Language (DDL):</b> e.g., CREATE, ALTER, DROP, TRUNCATE, RENAME, etc. All these commands are used for updating the data that?s why they are known as Data Definition Language.</li> <br>
+                <li><b>Data Manipulation Language (DML):</b> e.g., SELECT, UPDATE, INSERT, DELETE, etc. These commands are used for the manipulation of already updated data that's why they are the part of Data Manipulation Language.</li><br>
+                <li><b>DATA Control Language (DCL):</b> e.g., GRANT and REVOKE. These commands are used for giving and removing the user access on the database. So, they are the part of Data Control Language.</li> <br>
+                <li><b>Transaction Control Language (TCL):</b> e.g., COMMIT, ROLLBACK, and SAVEPOINT. These are the commands used for managing transactions in the database. TCL is used for managing the changes made by DM</li>
+            </ul>
+        </p>
+
+        <p class="question">6. What is data abstraction in DBMS?</p>
+        <p>Data abstraction in DBMS is a process of hiding irrelevant details from users. Because database systems are made of complex data structures so, it makes accessible the user interaction with the database.</p>
+
+        <p class="question">7. What is normalization?</p>
+        <p>Normalization is a process of analysing the given relation schemas according to their functional dependencies. It is used to minimize redundancy and also used to minimize insertion, deletion and update distractions. Normalization is considered as an essential process as it is used to avoid data redundancy, insertion anomaly, updation anomaly, deletion anomaly.
+            <br>
+            There most commonly used normal forms are:
+            <ul>
+                <li>First Normal Form(1NF)
+                </li>
+                <li>Second Normal Form(2NF)
+                </li>
+                <li>Third Normal Form(3NF)
+                </li>
+                <li>Boyce & Codd Normal Form(BCNF)
+                </li>
+            </ul>
+        </p>
+
+        <p class="question">8. What is Denormalization?</p>
+        <p>Denormalization is the process of boosting up database performance and adding of redundant data which helps to get rid of complex data. Denormalization is a part of database optimization technique. This process is used to avoid the use of complex and costly joins. Denormalization doesn't refer to the thought of not to normalize instead of that denormalization takes place after normalization. In this process, firstly the redundancy of the data will be removed using normalization process than through denormalization process we will add redundant data as per the requirement so that we can easily avoid the costly joins.</p>
+
+        <p class="question">9. What is functional Dependency?</p>
+        <p>Functional Dependency is the starting point of normalization. It exists when a relation between two attributes allow you to determine the corresponding attribute's value uniquely. The functional dependency is also known as database dependency and defines as the relationship which occurs when one attribute in a relation uniquely determines another attribute. It is written as A->B which means B is functionally dependent on A.</p>
+
+        <p class="question">10. What is an entity?</p>
+        <p>The Entity is a set of attributes in a database. An entity can be a real-world object which physically exists in this world. All the entities have their attribute which in the real world considered as the characteristics of the object.
+<br><br>
+            For example: In the employee database of a company, the employee, department, and the designation can be considered as the entities. These entities have some characteristics which will be the attributes of the corresponding entity.</p>
+
+
+        <p class="question">11. What is Join?</p>
+        <p>The Join operation is one of the most useful activities in relational algebra. It is most commonly used way to combine information from two or more relations. A Join is always performed on the basis of the same or related column. Most complex queries of SQL involve JOIN command.
+
+            There are following types of join :
+            <ul>
+                <li>Inner Join</li>
+                <li>Left Outer Join</li>
+                <li>Right Outer Join</li>
+                <li>Full Outer Join</li>
+            </ul>
+        </p>
+
+        <p class="question">12. Explain ACID properties</p>
+        <p>
+            ACID properties are some basic rules, which has to be satisfied by every transaction to preserve the integrity. These properties and rules are:
+
+            <ul>
+                <li><b>ATOMICITY:</b> Atomicity is more generally known as ?all or nothing rule.' Which implies all are considered as one unit, and they either run to completion or not executed at all.</li>
+                <li><b>CONSISTENCY:</b> This property refers to the uniformity of the data. Consistency implies that the database is consistent before and after the transaction.</li>
+                <li><b>INTEGRITY:</b> This property states that the number of the transaction can be executed concurrently without leading to the inconsistency of the database state.</li>
+                <li><b>DURABILITY:</b> This property ensures that once the transaction is committed it will be stored in the non-volatile memory and system crash can also not affect it anymore.</li>
+            </ul>
+        </p>
+
+        <br>
+        <a href="/images/database-interview-questions.pdf" download="Database-Interview-Questions">
+          <b>-</b>
+          <b>DOWNLOAD PDF!</b>
+
+        </a>
+
+        
+
+      </div>
+
+      
+</body>
+
+<footer>
+    <br>
+    @Copyrights Reserverd!
+    <br>
+    <br>
+</footer>
+</html>
